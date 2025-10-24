@@ -1,0 +1,16 @@
+[2025-10-24 22:42:50] [INFO] ログ出力の初期化 .
+[2025-10-24 22:42:50] [INFO] ゲーム起動
+[2025-10-24 22:42:50] [INFO] データ読み込み開始
+[2025-10-24 22:42:50] [INFO] テクスチャの読み込み成功: assets/textures/blue_slime/0.png
+[2025-10-24 22:42:50] [INFO] テクスチャの読み込み成功: assets/textures/blue_slime/1.png
+[2025-10-24 22:42:50] [INFO] テクスチャの読み込み成功: assets/textures/blue_slime/2.png
+[2025-10-24 22:42:50] [INFO] テクスチャの読み込み成功: assets/textures/blue_slime/3.png
+[2025-10-24 22:42:50] [INFO] テクスチャの読み込み成功: assets/textures/default/default.jpg
+[2025-10-24 22:42:50] [INFO] テクスチャの読み込み成功: assets/textures/title/bg.jpeg
+[2025-10-24 22:42:50] [INFO] サウンド読み込み成功： assets\sounds\se.wav
+[2025-10-24 22:42:50] [INFO] ウィンドウの作成
+[2025-10-24 22:42:50] [INFO] Scene: Title Scene が生成されました
+[2025-10-24 22:42:50] [INFO] ゲーム開始時のフレームレート設定 FPS: 240.00, Fixed FPS: 60.00
+[2025-10-24 22:42:50] [INFO] ゲームループの開始
+[2025-10-24 22:42:55] [INFO] ゲームループの終了
+[2025-10-24 22:42:55] [INFO] ゲームの正常終了

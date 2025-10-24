@@ -1,0 +1,60 @@
+﻿  imgui-SFML.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  DebugUi.cpp
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\Time.hpp(34,52): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'program/SKFW/Debug/DebugUi.cpp' をコンパイルしています)
+  
+  base_Drawable.cpp
+  comp_Animation.cpp
+  comp_collider.cpp
+  comp_DrawCollider.cpp
+  comp_Image.cpp
+  comp_RigidBody.cpp
+  comp_Transform.cpp
+  GameObjectManager.cpp
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Ecs\GameObjectManager.cpp(153,32): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  system_Collision.cpp
+  system_Render.cpp
+  system_RigidBody.cpp
+  system_Transform.cpp
+  TagManager.cpp
+  Anim2D.cpp
+  コンパイル中...
+  BGMManager.cpp
+  Camera.cpp
+  Database.cpp
+  GameManager.cpp
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\Time.hpp(34,52): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'program/SKFW/Framework/GameManager.cpp' をコンパイルしています)
+  
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\TransitionOverlay.h(19,19): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'program/SKFW/Framework/GameManager.cpp' をコンパイルしています)
+  
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\GameManager.cpp(118,30): warning C4244: '引数': 'float' から 'unsigned int' への変換です。データが失われる可能性があります。
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\GameManager.cpp(156,55): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\GameManager.cpp(160,30): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\GameManager.cpp(169,37): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\GameManager.cpp(180,45): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  main.cpp
+  Scene.cpp
+  SceneManager.cpp
+  SEManager.cpp
+  SoundManager.cpp
+  SoundResource.cpp
+  TextureResource.cpp
+  TransitionOverlay.cpp
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\TransitionOverlay.h(19,19): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'program/SKFW/Framework/TransitionOverlay.cpp' をコンパイルしています)
+  
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\TransitionOverlay.cpp(9,14): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\com\source\repos\SKFM-0.1.0-window-vc20-64-bit\program\SKFW\Framework\TransitionOverlay.cpp(12,41): warning C4244: '引数': 'float' から 'uint8_t' への変換です。データが失われる可能性があります。
+  VoiceManager.cpp
+     ライブラリ C:\Users\com\Source\Repos\SKFM-0.1.0-window-vc20-64-bit\x64\Release\Framework.lib とオブジェクト C:\Users\com\Source\Repos\SKFM-0.1.0-window-vc20-64-bit\x64\Release\Framework.exp を作成中
+  コード生成しています。
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 7013 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  sfml-tutorial.vcxproj -> C:\Users\com\Source\Repos\SKFM-0.1.0-window-vc20-64-bit\x64\Release\Framework.exe

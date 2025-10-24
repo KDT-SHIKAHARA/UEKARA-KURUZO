@@ -1,0 +1,21 @@
+{
+    "name_to_id": [
+        {
+            "key": "Player",
+            "value": 0
+        },
+        {
+            "key": "Enemy",
+            "value": 1
+        },
+        {
+            "key": "None",
+            "value": 2
+        }
+    ],
+    "id_to_name": [
+        "Player",
+        "Enemy",
+        "None"
+    ]
+}
