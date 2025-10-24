@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="program">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="program\Core">
+      <UniqueIdentifier>{6a2615f4-c2c7-4f70-b4f1-c45bdbab78a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs">
+      <UniqueIdentifier>{97715ace-4c51-41d6-8a51-31af8165fa65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Game">
+      <UniqueIdentifier>{6ddb78cf-57b6-417c-b052-0c385c4e8206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\GameManager">
+      <UniqueIdentifier>{d1b9ad53-eab3-49be-84b2-349c6cad4d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Utility">
+      <UniqueIdentifier>{8c1c395c-fed1-4987-98e3-9bbf5368c6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\DebugUI">
+      <UniqueIdentifier>{bdad20f7-9d34-410d-9f27-79c2f5aa8dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\ImGui">
+      <UniqueIdentifier>{d44c9bb4-6fab-4767-b7a8-7ea8ed75317e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\ImGui\sfml">
+      <UniqueIdentifier>{3d1f2351-9a22-46cd-8e66-50c29f21854f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\ImGui\imgui">
+      <UniqueIdentifier>{4417e677-1fcc-4131-a0c3-f3b05b7443e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Input">
+      <UniqueIdentifier>{81166b03-ce8f-4ffd-a629-0abe0474d2e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Time">
+      <UniqueIdentifier>{ca70afaf-02bb-4991-9d1a-14ae4926a093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\GameObject">
+      <UniqueIdentifier>{9b34dfdf-5b6d-4559-8003-78bfaede5a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\Component">
+      <UniqueIdentifier>{609c57ab-aca6-4685-9d51-fa8056aca5a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\DebugUI\tabs">
+      <UniqueIdentifier>{a9df746e-4b72-4dce-b3bc-dc5c4c8297f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\Tag">
+      <UniqueIdentifier>{71fb7b89-15a7-453c-8b27-eabc2bc2186a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\Component\base">
+      <UniqueIdentifier>{c5c2bb9d-30cd-4bd5-8cf4-0e48e34093b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\Component\transform">
+      <UniqueIdentifier>{755b4ad3-6e2b-426f-b462-b746dc72bbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\Component\Canvas">
+      <UniqueIdentifier>{2386a3cd-b064-4ebb-bb05-eaab0d86f5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\Component\Canvas\Image">
+      <UniqueIdentifier>{94852982-a352-4c05-9b5b-c97929b05d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Resource">
+      <UniqueIdentifier>{b4cdba47-b24a-43e1-8445-d20d34ca7b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\WindowData">
+      <UniqueIdentifier>{0b320655-e7d4-42c8-8e44-739b5cc9f4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Database">
+      <UniqueIdentifier>{68ef7aec-18bf-4a39-95c5-22689bd85f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\Component\Rigidbody">
+      <UniqueIdentifier>{644a3b38-5827-4995-bdc9-c2bddcee6b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Anim2d">
+      <UniqueIdentifier>{2c702c1d-d2e9-4413-948d-bb463f8a24e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Logger">
+      <UniqueIdentifier>{78f8d97c-724a-4b41-a484-6c780aba0721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\Component\Canvas\animation">
+      <UniqueIdentifier>{029b29ff-c296-4eff-abd1-d33d141c1f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Ecs\Component\Collier">
+      <UniqueIdentifier>{e57cc5a0-d293-4cd2-925e-ace958904dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Sound">
+      <UniqueIdentifier>{a2396e24-a71d-4af4-8d47-999254f4c185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Sound\SE">
+      <UniqueIdentifier>{f23797ac-719c-4a15-9286-8dc7128b6572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Sound\BGM">
+      <UniqueIdentifier>{66b8c045-3e89-4d08-934a-bceb4d448ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Sound\Voice">
+      <UniqueIdentifier>{fe2aacc1-0992-4808-89da-e858f8f5048c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Scene">
+      <UniqueIdentifier>{952aa493-8a29-4516-884e-59d4dd21291f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Camera">
+      <UniqueIdentifier>{ebdaa919-6671-4f8d-840d-ec8d3437734e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Core\Scene\Transition">
+      <UniqueIdentifier>{5e0e721d-b370-45ae-91eb-cd368c2eeefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Game\scene">
+      <UniqueIdentifier>{45ed8e1f-b61b-4565-b4c7-6602a9d07971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Game\scene\title">
+      <UniqueIdentifier>{acfb0f2e-1690-47ad-aa5b-f87a137a0a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\Game\prefab">
+      <UniqueIdentifier>{e3e95ad8-9d3c-40f8-a59e-97fd1ba1bcdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="library\ImGui\imgui-SFML.cpp">
+      <Filter>program\ImGui\sfml</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ImGui\imgui.cpp">
+      <Filter>program\ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ImGui\imgui_draw.cpp">
+      <Filter>program\ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ImGui\imgui_tables.cpp">
+      <Filter>program\ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ImGui\imgui_widgets.cpp">
+      <Filter>program\ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\main.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\GameManager.cpp">
+      <Filter>program\Core\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Debug\DebugUi.cpp">
+      <Filter>program\Core\DebugUI</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\GameObjectManager.cpp">
+      <Filter>program\Ecs\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\TagManager.cpp">
+      <Filter>program\Ecs\Tag</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\system_Transform.cpp">
+      <Filter>program\Ecs\Component\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\base_Drawable.cpp">
+      <Filter>program\Ecs\Component\base</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\system_Render.cpp">
+      <Filter>program\Ecs\Component\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\TextureResource.cpp">
+      <Filter>program\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\comp_Image.cpp">
+      <Filter>program\Ecs\Component\Canvas\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\comp_Transform.cpp">
+      <Filter>program\Ecs\Component\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\Database.cpp">
+      <Filter>program\Core\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\comp_RigidBody.cpp">
+      <Filter>program\Ecs\Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\system_RigidBody.cpp">
+      <Filter>program\Ecs\Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\comp_Animation.cpp">
+      <Filter>program\Ecs\Component\Canvas\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\Anim2D.cpp">
+      <Filter>program\Core\Anim2d</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\comp_collider.cpp">
+      <Filter>program\Ecs\Component\Collier</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\system_Collision.cpp">
+      <Filter>program\Ecs\Component\Collier</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Ecs\comp_DrawCollider.cpp">
+      <Filter>program\Ecs\Component\Collier</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\SoundResource.cpp">
+      <Filter>program\Core\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\SEManager.cpp">
+      <Filter>program\Core\Sound\SE</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\SoundManager.cpp">
+      <Filter>program\Core\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\BGMManager.cpp">
+      <Filter>program\Core\Sound\BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\VoiceManager.cpp">
+      <Filter>program\Core\Sound\Voice</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\Scene.cpp">
+      <Filter>program\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\SceneManager.cpp">
+      <Filter>program\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\Camera.cpp">
+      <Filter>program\Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Framework\TransitionOverlay.cpp">
+      <Filter>program\Core\Scene\Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Game\TitleScene.cpp">
+      <Filter>program\Game\scene\title</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program\SKFW\Framework\GameManager.hpp">
+      <Filter>program\Core\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\Singleton.hpp">
+      <Filter>program\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\InputManager.hpp">
+      <Filter>program\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\Time.hpp">
+      <Filter>program\Core\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Debug\DebugTab.hpp">
+      <Filter>program\Core\DebugUI</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Debug\DebugUi.hpp">
+      <Filter>program\Core\DebugUI</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\GameObject.hpp">
+      <Filter>program\Ecs\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\GameObjectManager.hpp">
+      <Filter>program\Ecs\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\ObjectPool.hpp">
+      <Filter>program\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Debug\debug_GameManager.hpp">
+      <Filter>program\Core\DebugUI\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\TagManager.hpp">
+      <Filter>program\Ecs\Tag</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Debug\debug_TagManager.hpp">
+      <Filter>program\Core\DebugUI\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Debug\debug_GameObjectManager.hpp">
+      <Filter>program\Core\DebugUI\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\base_component.hpp">
+      <Filter>program\Ecs\Component\base</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\comp_Transform.hpp">
+      <Filter>program\Ecs\Component\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\system_Transform.hpp">
+      <Filter>program\Ecs\Component\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\base_Monobehaviour.hpp">
+      <Filter>program\Ecs\Component\base</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\base_Drawable.hpp">
+      <Filter>program\Ecs\Component\base</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\system_Render.hpp">
+      <Filter>program\Ecs\Component\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\TextureResource.hpp">
+      <Filter>program\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\comp_Image.hpp">
+      <Filter>program\Ecs\Component\Canvas\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\data_window.h">
+      <Filter>program\Core\WindowData</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\Database.hpp">
+      <Filter>program\Core\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\comp_RigidBody.hpp">
+      <Filter>program\Ecs\Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\system_RigidBody.hpp">
+      <Filter>program\Ecs\Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\Anim2D.hpp">
+      <Filter>program\Core\Anim2d</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\comp_Animation.hpp">
+      <Filter>program\Ecs\Component\Canvas\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\Flag.h">
+      <Filter>program\Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Debug\Logger.hpp">
+      <Filter>program\Core\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\comp_collider.hpp">
+      <Filter>program\Ecs\Component\Collier</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\CollisionRule.hpp">
+      <Filter>program\Ecs\Component\Collier</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\system_Collision.hpp">
+      <Filter>program\Ecs\Component\Collier</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\comp_DrawCollider.h">
+      <Filter>program\Ecs\Component\Collier</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\SoundResource.hpp">
+      <Filter>program\Core\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\SoundManager.hpp">
+      <Filter>program\Core\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\SEManager.hpp">
+      <Filter>program\Core\Sound\SE</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\BGMManager.hpp">
+      <Filter>program\Core\Sound\BGM</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\VoiceManager.hpp">
+      <Filter>program\Core\Sound\Voice</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\Scene.hpp">
+      <Filter>program\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\SceneManager.hpp">
+      <Filter>program\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\Camera.h">
+      <Filter>program\Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\DefaultScene.hpp">
+      <Filter>program\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\TransitionOverlay.h">
+      <Filter>program\Core\Scene\Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\base_IOverlay.hpp">
+      <Filter>program\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\TestScene.h">
+      <Filter>program\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Debug\debug_GamePad.h">
+      <Filter>program\Core\DebugUI\tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Game\TitleScene.h">
+      <Filter>program\Game\scene\title</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Game\PlayerPrefab.h">
+      <Filter>program\Game\prefab</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Ecs\Ecs.h">
+      <Filter>program\Ecs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

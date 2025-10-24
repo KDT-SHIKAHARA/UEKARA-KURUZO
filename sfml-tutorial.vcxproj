@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a5fc0886-db49-4f31-8e17-37482d6397af}</ProjectGuid>
+    <RootNamespace>sfmltutorial</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Framework</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>library\include;library\ImGui;program;library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>library\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;opengl32.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>library\include;library\ImGui;program;library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>library\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;opengl32.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>library\include;library\ImGui;program;library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>library\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;opengl32.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>library\include;library\ImGui;program;library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>library\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;opengl32.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="library\ImGui\imgui-SFML.cpp" />
+    <ClCompile Include="library\ImGui\imgui.cpp" />
+    <ClCompile Include="library\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="library\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="library\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="program\SKFW\Debug\DebugUi.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\base_Drawable.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\comp_Animation.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\comp_collider.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\comp_DrawCollider.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\comp_Image.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\comp_RigidBody.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\comp_Transform.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\GameObjectManager.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\system_Collision.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\system_Render.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\system_RigidBody.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\system_Transform.cpp" />
+    <ClCompile Include="program\SKFW\Ecs\TagManager.cpp" />
+    <ClCompile Include="program\SKFW\Framework\Anim2D.cpp" />
+    <ClCompile Include="program\SKFW\Framework\BGMManager.cpp" />
+    <ClCompile Include="program\SKFW\Framework\Camera.cpp" />
+    <ClCompile Include="program\SKFW\Framework\Database.cpp" />
+    <ClCompile Include="program\SKFW\Framework\GameManager.cpp" />
+    <ClCompile Include="program\SKFW\Framework\main.cpp" />
+    <ClCompile Include="program\SKFW\Framework\Scene.cpp" />
+    <ClCompile Include="program\SKFW\Framework\SceneManager.cpp" />
+    <ClCompile Include="program\SKFW\Framework\SEManager.cpp" />
+    <ClCompile Include="program\SKFW\Framework\SoundManager.cpp" />
+    <ClCompile Include="program\SKFW\Framework\SoundResource.cpp" />
+    <ClCompile Include="program\SKFW\Framework\TextureResource.cpp" />
+    <ClCompile Include="program\SKFW\Framework\TransitionOverlay.cpp" />
+    <ClCompile Include="program\SKFW\Framework\VoiceManager.cpp" />
+    <ClCompile Include="program\SKFW\Game\TitleScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program\SKFW\Debug\DebugTab.hpp" />
+    <ClInclude Include="program\SKFW\Debug\DebugUi.hpp" />
+    <ClInclude Include="program\SKFW\Debug\debug_GameManager.hpp" />
+    <ClInclude Include="program\SKFW\Debug\debug_GameObjectManager.hpp" />
+    <ClInclude Include="program\SKFW\Debug\debug_GamePad.h" />
+    <ClInclude Include="program\SKFW\Debug\debug_TagManager.hpp" />
+    <ClInclude Include="program\SKFW\Debug\Logger.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\base_component.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\base_Drawable.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\base_Monobehaviour.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\CollisionRule.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\comp_Animation.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\comp_collider.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\comp_DrawCollider.h" />
+    <ClInclude Include="program\SKFW\Ecs\comp_Image.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\comp_RigidBody.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\comp_Transform.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\Ecs.h" />
+    <ClInclude Include="program\SKFW\Ecs\GameObject.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\GameObjectManager.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\system_Collision.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\system_Render.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\system_RigidBody.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\system_Transform.hpp" />
+    <ClInclude Include="program\SKFW\Ecs\TagManager.hpp" />
+    <ClInclude Include="program\SKFW\Framework\Anim2D.hpp" />
+    <ClInclude Include="program\SKFW\Framework\base_IOverlay.hpp" />
+    <ClInclude Include="program\SKFW\Framework\BGMManager.hpp" />
+    <ClInclude Include="program\SKFW\Framework\Camera.h" />
+    <ClInclude Include="program\SKFW\Framework\Database.hpp" />
+    <ClInclude Include="program\SKFW\Framework\data_window.h" />
+    <ClInclude Include="program\SKFW\Framework\DefaultScene.hpp" />
+    <ClInclude Include="program\SKFW\Framework\Flag.h" />
+    <ClInclude Include="program\SKFW\Framework\GameManager.hpp" />
+    <ClInclude Include="program\SKFW\Framework\InputManager.hpp" />
+    <ClInclude Include="program\SKFW\Framework\ObjectPool.hpp" />
+    <ClInclude Include="program\SKFW\Framework\Scene.hpp" />
+    <ClInclude Include="program\SKFW\Framework\SceneManager.hpp" />
+    <ClInclude Include="program\SKFW\Framework\SEManager.hpp" />
+    <ClInclude Include="program\SKFW\Framework\Singleton.hpp" />
+    <ClInclude Include="program\SKFW\Framework\SoundResource.hpp" />
+    <ClInclude Include="program\SKFW\Framework\SoundManager.hpp" />
+    <ClInclude Include="program\SKFW\Framework\TestScene.h" />
+    <ClInclude Include="program\SKFW\Framework\TextureResource.hpp" />
+    <ClInclude Include="program\SKFW\Framework\Time.hpp" />
+    <ClInclude Include="program\SKFW\Framework\TransitionOverlay.h" />
+    <ClInclude Include="program\SKFW\Framework\VoiceManager.hpp" />
+    <ClInclude Include="program\SKFW\Game\PlayerPrefab.h" />
+    <ClInclude Include="program\SKFW\Game\TitleScene.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
