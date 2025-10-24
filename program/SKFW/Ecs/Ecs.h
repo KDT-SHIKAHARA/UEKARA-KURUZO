@@ -9,3 +9,5 @@
 #include<SKFW/Ecs/GameObjectManager.hpp>
 #include<SKFW/Ecs/comp_Image.hpp>
 #include<SKFW/Framework/TextureResource.hpp>
+
+#include<SKFW/Framework/data_window.h>

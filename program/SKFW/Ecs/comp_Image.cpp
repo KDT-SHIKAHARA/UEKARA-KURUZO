@@ -14,16 +14,21 @@ ImageComponent::ImageComponent(sf::Texture* a_texture, int a_layer, IDrawable::C
 /// <param name="a_alpha"></param>
 void ImageComponent::Draw(sf::RenderWindow& a_window, float a_alpha)
 {
-	//	À•WŒn‚ðŽæ“¾‚µ‚Ä”½‰f
-	auto transform = GetGameObject()->GetComponent<TransformComponent>();
-	if (transform != nullptr)
-	{
-		auto trans = transform->GetInterpolatedPosition(a_alpha);
-		m_sprite.setPosition(trans);
-		m_sprite.setRotation(transform->GetInterpolatedAngle(a_alpha));
-		m_sprite.setScale(transform->GetScale());
-	}
+    auto transform = GetGameObject()->GetComponent<TransformComponent>();
+    if (transform != nullptr)
+    {
+        // Pivot‚É‰ž‚¶‚ÄŒ´“_‚ðÝ’è
+        if (transform->GetPivot() == TransformComponent::ePivot::Center)
+        {
+            m_sprite.setOrigin({ m_sprite.getLocalBounds().size.x / 2, m_sprite.getLocalBounds().size.y / 2 });
+        }
 
-	//	•\Ž¦
-	a_window.draw(m_sprite);
+        // •âŠÔÀ•W‚ð”½‰f
+        m_sprite.setPosition(transform->GetInterpolatedPosition(a_alpha));
+        m_sprite.setRotation(transform->GetInterpolatedAngle(a_alpha));
+        m_sprite.setScale(transform->GetScale());
+    }
+
+    // •`‰æ
+    a_window.draw(m_sprite);
 }

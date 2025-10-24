@@ -120,6 +120,9 @@
     <Filter Include="program\Game\prefab">
       <UniqueIdentifier>{e3e95ad8-9d3c-40f8-a59e-97fd1ba1bcdb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="program\Game\scene\title\component">
+      <UniqueIdentifier>{fab490c8-e3be-4686-b5ec-be0ab08f3dc9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="library\ImGui\imgui-SFML.cpp">
@@ -223,6 +226,9 @@
     </ClCompile>
     <ClCompile Include="program\SKFW\Game\TitleScene.cpp">
       <Filter>program\Game\scene\title</Filter>
+    </ClCompile>
+    <ClCompile Include="program\SKFW\Game\comp_titleStartButton.cpp">
+      <Filter>program</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -372,6 +378,9 @@
     </ClInclude>
     <ClInclude Include="program\SKFW\Ecs\Ecs.h">
       <Filter>program\Ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Game\comp_titleStartButton.h">
+      <Filter>program\Game\scene\title\component</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -5,12 +5,12 @@
             "value": 0
         },
         {
-            "key": "Enemy",
-            "value": 1
-        },
-        {
             "key": "None",
             "value": 2
+        },
+        {
+            "key": "Enemy",
+            "value": 1
         }
     ],
     "id_to_name": [

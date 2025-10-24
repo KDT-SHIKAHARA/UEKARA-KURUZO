@@ -1,23 +1,2 @@
-﻿  DebugUi.cpp
-C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\program\SKFW\Framework\Time.hpp(34,52): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-  (ソース ファイル 'program/SKFW/Debug/DebugUi.cpp' をコンパイルしています)
-  
-C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\program\SKFW\Debug\DebugUi.cpp(33,19): warning C4834: [[nodiscard]] 属性を持つ関数の戻り値を破棄しています
-  comp_Animation.cpp
-  Anim2D.cpp
-  GameManager.cpp
-C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\program\SKFW\Framework\Time.hpp(34,52): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
-  (ソース ファイル 'program/SKFW/Framework/GameManager.cpp' をコンパイルしています)
-  
-C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\program\SKFW\Framework\TransitionOverlay.h(19,19): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
-  (ソース ファイル 'program/SKFW/Framework/GameManager.cpp' をコンパイルしています)
-  
-C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\program\SKFW\Framework\GameManager.cpp(118,30): warning C4244: '引数': 'float' から 'unsigned int' への変換です。データが失われる可能性があります。
-C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\program\SKFW\Framework\GameManager.cpp(158,55): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\program\SKFW\Framework\GameManager.cpp(162,30): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\program\SKFW\Framework\GameManager.cpp(171,37): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
-C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\program\SKFW\Framework\GameManager.cpp(182,45): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
-  TextureResource.cpp
-  TitleScene.cpp
-  コードを生成中...
-  sfml-tutorial.vcxproj -> C:\Users\kirit\OneDrive\デスクトップ\uekara kuruzo\x64\Debug\Framework.exe
+﻿  TitleScene.cpp
+  sfml-tutorial.vcxproj -> C:\Users\kirit\OneDrive\デスクトップ\上からモノが落ちてくる\x64\Debug\Framework.exe

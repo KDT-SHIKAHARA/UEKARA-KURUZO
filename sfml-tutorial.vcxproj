@@ -185,6 +185,7 @@
     <ClCompile Include="program\SKFW\Framework\TextureResource.cpp" />
     <ClCompile Include="program\SKFW\Framework\TransitionOverlay.cpp" />
     <ClCompile Include="program\SKFW\Framework\VoiceManager.cpp" />
+    <ClCompile Include="program\SKFW\Game\comp_titleStartButton.cpp" />
     <ClCompile Include="program\SKFW\Game\TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -235,6 +236,7 @@
     <ClInclude Include="program\SKFW\Framework\Time.hpp" />
     <ClInclude Include="program\SKFW\Framework\TransitionOverlay.h" />
     <ClInclude Include="program\SKFW\Framework\VoiceManager.hpp" />
+    <ClInclude Include="program\SKFW\Game\comp_titleStartButton.h" />
     <ClInclude Include="program\SKFW\Game\PlayerPrefab.h" />
     <ClInclude Include="program\SKFW\Game\TitleScene.h" />
   </ItemGroup>
